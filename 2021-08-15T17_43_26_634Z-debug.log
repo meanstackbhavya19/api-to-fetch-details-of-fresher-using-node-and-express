@@ -1,0 +1,73 @@
+0 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\user\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'i',
+0 verbose cli   'winston' ]
+1 info using npm@7.20.6
+2 info using node@v10.16.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Users\user\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 36ms
+6 timing config:load:builtin Completed in 37ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\user\Desktop\assign\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\user\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\user\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 54ms
+19 timing npm:load:configload Completed in 54ms
+20 timing npm:load:setTitle Completed in 1ms
+21 timing npm:load:setupLog Completed in 0ms
+22 timing config:load:flatten Completed in 6ms
+23 timing npm:load:cleanupLog Completed in 5ms
+24 timing npm:load:configScope Completed in 0ms
+25 timing npm:load:projectScope Completed in 2ms
+26 timing npm:load Completed in 73ms
+27 timing arborist:ctor Completed in 2ms
+28 timing idealTree:init Completed in 27ms
+29 timing idealTree:userRequests Completed in 5ms
+30 silly idealTree buildDeps
+31 silly fetch manifest package.json@^2.0.1
+32 timing arborist:ctor Completed in 0ms
+33 http fetch GET 200 https://registry.npmjs.org/package.json 216ms (cache revalidated)
+34 silly fetch manifest react@^16.1.1
+35 http fetch GET 200 https://registry.npmjs.org/react 74ms (cache revalidated)
+36 silly fetch manifest react-dom@^16.1.1
+37 http fetch GET 200 https://registry.npmjs.org/react-dom 45ms (cache revalidated)
+38 silly fetch manifest react-marquee@^0.1.1
+39 http fetch GET 200 https://registry.npmjs.org/react-marquee 1293ms (cache revalidated)
+40 silly fetch manifest react@~0.14.0
+41 timing idealTree Completed in 1816ms
+42 timing command:install Completed in 1845ms
+43 verbose stack Error: unable to resolve dependency tree
+43 verbose stack     at Arborist.[failPeerConflict] (C:\Users\user\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1255:25)
+43 verbose stack     at Arborist.[loadPeerSet] (C:\Users\user\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1222:34)
+44 verbose cwd C:\Users\user\Desktop\assign
+45 verbose Windows_NT 10.0.19042
+46 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\user\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "i" "winston"
+47 verbose node v10.16.0
+48 verbose npm  v7.20.6
+49 error code ERESOLVE
+50 error ERESOLVE unable to resolve dependency tree
+51 error
+52 error While resolving: [1mlev_dev[22m@[1m0.1.0[22m
+52 error Found: [1mreact[22m@[1m16.14.0[22m[2m[22m
+52 error [2mnode_modules/react[22m
+52 error   [1mreact[22m@"[1m^16.1.1[22m" from the root project
+52 error
+52 error Could not resolve dependency:
+52 error [35mpeer[39m [1mreact[22m@"[1m~0.14.0[22m" from [1mreact-marquee[22m@[1m0.1.1[22m[2m[22m
+52 error [2mnode_modules/react-marquee[22m
+52 error   [1mreact-marquee[22m@"[1m^0.1.1[22m" from the root project
+52 error
+52 error Fix the upstream dependency conflict, or retry
+52 error this command with --force, or --legacy-peer-deps
+52 error to accept an incorrect (and potentially broken) dependency resolution.
+52 error
+52 error See C:\Users\user\AppData\L11:15 PM 15-08-2021ocal\npm-cache\eresolve-report.txt for a full report.
+53 verbose exit 11:45 PM 15-08-202111:45 PM 15-08-202111:45 PM 15-08-2021
